@@ -1,0 +1,18 @@
+Below are the Guides for testing Spring Boot Application
+
+Sample01 Unit Testing
+ - This follows the unit testing guides or principles using the mockito framework
+ - It's also synonymous to the testing learnt in Happy Hotel in your GitHub repository
+ - This test forms the basis of testing in spring boot using mockito frame
+
+Sample 02 Integration Testing Using RestTemplate
+ - This tests is used to test the controller level of the application
+ - The service class must be injected with the annotation @MockBean or @SpyBean as done on line 27
+ - Observant to the code base and following patterns used in testing the controller (integration)
+ - is key to the success of integration.
+
+Sample 03 MockMVC Approach
+ - This is also an integration testing using the MockMVC approach
+ - With this also the service class should be injected with the @MockBean or @SpyBean annotation
+ - While following the syntax in the file is paramount to the success of writing Integration testing
+ - using the mock MVC pattern
